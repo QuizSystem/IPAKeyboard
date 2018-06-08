@@ -8,6 +8,5 @@ platform :ios, "10.0"
 pod 'LazySwifter'
 pod 'SnapKit'
 
-target "CustomKeyboard"
-target "IPAKeyboard"
-
+target "LeKeyboard"
+target "LeKeyboard2Extension"

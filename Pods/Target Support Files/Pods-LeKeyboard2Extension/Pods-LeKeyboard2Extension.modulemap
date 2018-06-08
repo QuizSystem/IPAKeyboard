@@ -1,0 +1,6 @@
+framework module Pods_LeKeyboard2Extension {
+  umbrella header "Pods-LeKeyboard2Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

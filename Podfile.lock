@@ -1,5 +1,5 @@
 PODS:
-  - LazySwifter (1.0.6)
+  - LazySwifter (1.0.5)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
@@ -13,9 +13,9 @@ SPEC REPOS:
     - LazySwifter
 
 SPEC CHECKSUMS:
-  LazySwifter: 3e09cb3712eaee650f5b6e732c129005b45767a1
+  LazySwifter: 2aabe9c0cc71a5ae16ff2c3bbff679f4d4d7d14a
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 0615d9eaef8bd8ea10815579714e7cf5ec921f12
+PODFILE CHECKSUM: d20faf375b6d1f03da10740444135176d55f050a
 
 COCOAPODS: 1.5.3
