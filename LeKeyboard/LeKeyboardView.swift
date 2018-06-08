@@ -12,22 +12,22 @@ import SnapKit
 
 class LeKeyboardView: UIView {
 
-    let numRow = 5
-    let numColumn = 5
+    let numRow = 4
+    let numColumn = 6
     let space: CGFloat = 6.0
     let lineSpace: CGFloat = 10.0
 
     let texts = [
-        " ",
-        "i", "ɪ", "e", "ɛ", "æ", "u", "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
-        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr", "ɑr",
-        "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
+        "i", "ɪ", "e", "ɛ", "æ", "u",
+        "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
+        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
+        "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
     ]
     let displayTexts = [
-        " ",
-        "i", "ɪ", "e", "ɛ", "æ", "u", "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
-        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr", "ɑr",
-        "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
+        "i", "ɪ", "e", "ɛ", "æ", "u",
+        "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
+        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
+        "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
     ]
 
     @IBOutlet weak var nextKeyboardButton: ShapeButton!
