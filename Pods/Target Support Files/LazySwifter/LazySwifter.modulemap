@@ -1,0 +1,6 @@
+framework module LazySwifter {
+  umbrella header "LazySwifter-umbrella.h"
+
+  export *
+  module * { export * }
+}

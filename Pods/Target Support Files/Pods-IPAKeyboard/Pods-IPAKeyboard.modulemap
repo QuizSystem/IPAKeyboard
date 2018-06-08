@@ -1,0 +1,6 @@
+framework module Pods_IPAKeyboard {
+  umbrella header "Pods-IPAKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
