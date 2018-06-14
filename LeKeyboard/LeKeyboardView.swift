@@ -12,10 +12,18 @@ import SnapKit
 
 class LeKeyboardView: UIView {
 
-    let numRow = 4
+    let numRow = 8
     let numColumn = 6
     let space: CGFloat = 6.0
     let lineSpace: CGFloat = 10.0
+
+
+    let vowel = [
+        "i", "ɪ", "e", "ɛ", "æ", "u",
+        "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
+        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
+        "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
+        ]
 
     let consonant = [
         "p", "b", "t", "d", "k", "ɡ",
@@ -24,20 +32,21 @@ class LeKeyboardView: UIView {
         "tʃ", "dʒ", "j", "w", "ɹ", "l",
     ]
 
-    let vowel = [
+    let texts = [
         "i", "ɪ", "e", "ɛ", "æ", "u",
         "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
         "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
         "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
-    ]
-
-    let texts = [
         "p", "b", "t", "d", "k", "ɡ",
         "m", "n", "ŋ", "f", "v", "θ",
         "ð", "s", "z", "ʃ", "ʒ", "h",
         "tʃ", "dʒ", "j", "w", "ɹ", "l",
         ]
     let displayTexts = [
+        "i", "ɪ", "e", "ɛ", "æ", "u",
+        "ʊ", "o", "ɔ", "ɑ", "ə", "ʌ",
+        "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
+        "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
         "p", "b", "t", "d", "k", "ɡ",
         "m", "n", "ŋ", "f", "v", "θ",
         "ð", "s", "z", "ʃ", "ʒ", "h",
