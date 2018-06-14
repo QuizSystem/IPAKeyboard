@@ -15,3 +15,6 @@ IPA Chart
         "ɚ", "ɝ", "ɪr", "ɛr", "ʊr", "ɔr",
         "ɑr", "aɪ", "aʊ", "ɔɪ", "eɪ", "oʊ",
     ]
+
+
+<a href="https://imgflip.com/gif/2c74wu"><img src="https://i.imgflip.com/2c74wu.gif" title="IPA Keyboard"/></a>
