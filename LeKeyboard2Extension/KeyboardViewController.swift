@@ -37,7 +37,7 @@ class KeyboardViewController: UIInputViewController {
     }
 
     func configureLeKeyboardView() {
-        leKeyboard.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allTouchEvents)
+        leKeyboard.nextKeyboardButton.addTarget(self, action: #selector(handleInputModeList(from:with:)), for: .allEvents)
         leKeyboard.didTapDelete = { [weak self] in
             let proxy = self?.textDocumentProxy
             if let lastText = proxy?.documentContextBeforeInput?.components(separatedBy: " ").last {

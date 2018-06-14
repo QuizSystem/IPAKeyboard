@@ -35,7 +35,7 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="03f-QF-KFf"/>
                     </constraints>
-                    <state key="normal" title="Dấu cách"/>
+                    <state key="normal" title="space"/>
                     <connections>
                         <action selector="didSelectSpaceButton:" destination="-1" eventType="touchDown" id="j3a-L9-IyX"/>
                     </connections>
